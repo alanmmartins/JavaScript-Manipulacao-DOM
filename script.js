@@ -25,8 +25,7 @@
 
 
 // função principal, o html só chama essa função
-function calculaIdade(event) {
-    event.preventDefault()
+function calculaIdade() {
     let dadosUsuario = pegarValores();
     let idade = calcular(dadosUsuario.ano)
 
